@@ -1,15 +1,15 @@
 <template>
-  <HeaderTemplate />
+  <HeaderComponent />
   <router-view/>
 </template>
 
 <script>
- import HeaderTemplate from './components/modules/HeaderTemplate.vue'
+ import HeaderComponent from '@/components/HeaderComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderTemplate
+    HeaderComponent
   }
 }
 </script>

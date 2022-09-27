@@ -11,18 +11,18 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/Works" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/works" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Works
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="/Works">All</a></li>
-            <li><a class="dropdown-item" href="/Works?tag=service">Service</a></li>
-            <li><a class="dropdown-item" href="/Works?tag=software">software</a></li>
-            <li><a class="dropdown-item" href="/Works?tag=movie">movie</a></li>
+            <li><router-link class="dropdown-item" to="/works">All</router-link></li>
+            <li><router-link class="dropdown-item" to="/works?tag=service">Service</router-link></li>
+            <li><router-link class="dropdown-item" to="/works?tag=software">software</router-link></li>
+            <li><router-link class="dropdown-item" to="/works?tag=movie">movie</router-link></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/About">About</a>
+          <router-link class="nav-link" aria-current="page" to="/about">About</router-link>
         </li>
       </ul>
     </div>
@@ -32,6 +32,6 @@
 
 <script>
 export default {
-  name: 'HeaderTemplate'
+  name: 'HeaderComponent'
 }
 </script>
