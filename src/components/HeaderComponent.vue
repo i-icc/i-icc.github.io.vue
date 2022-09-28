@@ -16,7 +16,8 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><router-link class="dropdown-item" to="/works">All</router-link></li>
-            <li><router-link class="dropdown-item" to="/works?tag=service">Service</router-link></li>
+            <li><router-link class="dropdown-item" to="/works?tag=recommended">おすすめ</router-link></li>
+            <li><router-link class="dropdown-item" to="/works?tag=service">Web Service</router-link></li>
             <li><router-link class="dropdown-item" to="/works?tag=software">software</router-link></li>
             <li><router-link class="dropdown-item" to="/works?tag=movie">movie</router-link></li>
           </ul>
