@@ -47,14 +47,16 @@
     bottom: -80px;
     box-sizing: border-box;
     position: absolute;
-    transition: 1s;
+    transition: 1.5s;
     font-family: 'Kosugi Maru', sans-serif;
+    color: black;
+    font-weight: bold;
 }
 
 .title {
     font-family: 'Kosugi Maru', sans-serif;
-    text-decoration:none;
     color: black;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 550px) {

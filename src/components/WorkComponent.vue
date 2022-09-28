@@ -4,10 +4,10 @@
       <router-link :to="'/works/' + id">
         <img :src="image_path" />
         <div class="card_content">
-          <p class="title">{{ title }}</p>
-          <p class="desc">{{ short_description }}</p>
+          <div class="desc">{{ short_description }}</div>
         </div>
       </router-link>
+      <div class="title">{{ title }}</div>
     </div>
   </div>
 </template>

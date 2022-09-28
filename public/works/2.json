@@ -1,12 +1,12 @@
 {
-    "id":0,
-    "title": "test_title",
-    "short_description": "this is a test work",
-    "tag": ["service", "software"],
-    "image_path": "/img/test.jpg",
+    "id":2,
+    "title": "ひろゆきロイド",
+    "short_description": "mellotron というモデルを使用した某配信者の合成音声",
+    "tag": ["software"],
+    "image_path": "/img/hiroyukiroid.png",
     "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
     "media":"youtube のやつ",
     "link": "url",
-    "tech": ["Python", "Flask", "Node.js"],
+    "tech": ["Python", "melltron"],
     "date": "2000-06-23"
 }
