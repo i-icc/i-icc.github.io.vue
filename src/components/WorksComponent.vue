@@ -1,20 +1,20 @@
 <script>
 export default {
-  name: "WorkModule",
+  name: "WorksModule",
   props: ["works"],
 };
 </script>
 
 <template>
   <div v-for="work in works" :key="work.id" class="card work">
-    <div class="box">
-      <router-link :to="'/works/' + work.id">
+    <router-link style="text-decoration: none; color: inherit" :to="'/works/' + work.id">
+      <div class="box">
         <img :src="work.image_path" />
         <div class="card_content">
           <div class="desc">{{ work.short_description }}</div>
         </div>
-      </router-link>
-      <div class="title">{{ work.title }}</div>
-    </div>
+        <div class="title">{{ work.title }}</div>
+      </div>
+    </router-link>
   </div>
 </template>

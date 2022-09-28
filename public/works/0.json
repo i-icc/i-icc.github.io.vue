@@ -5,8 +5,8 @@
     "tag": ["service", "software"],
     "image_path": "/img/test.jpg",
     "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
-    "media":"youtube のやつ",
-    "link": "url",
+    "media":"https://www.youtube.com/watch?v=Yen3MNf0dF8",
+    "link": "https://shittakater.herokuapp.com/",
     "tech": ["Python", "Flask", "Node.js"],
     "date": "2000-06-23"
 }

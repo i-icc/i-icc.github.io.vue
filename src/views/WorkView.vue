@@ -1,18 +1,11 @@
 <template>
   <main class="container">
-    <div class="text-lg-center mb-4 mt-2" style="font-size: 4rem; font-family: 'Kosugi Maru', sans-serif;">
-    制作物 {{tag}}
-    </div>
-    <div class="works">
-      <WorksComponent :works="works" />
-    </div>
+    id: {{ id }}
   </main>
 </template>
 
 <script>
-import WorksComponent from "@/components/WorksComponent.vue";
-
-import "../../public/css/works.css";
+// import WorkComponent from "@/components/WorkComponent.vue";
 
 export default {
   data() {
@@ -21,8 +14,9 @@ export default {
       tag: ""
     };
   },
-  mounted() {
+  created() {
     this.tag = this.$route.query.tag;
+
     for (var i = 0; i < 4; i++) {
       fetch(`works/${i}.json`)
         .then((response) => {
@@ -35,7 +29,7 @@ export default {
     }
   },
   components: {
-    WorksComponent,
+    
   },
 };
 </script>
