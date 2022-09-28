@@ -7,7 +7,7 @@ export default {
 
 <template>
   <div v-for="work in works" :key="work.id" class="card work">
-    <router-link style="text-decoration: none; color: inherit" :to="'/works/' + work.id">
+    <router-link style="text-decoration: none; color: inherit" :to="'/work/' + work.id">
       <div class="box">
         <img :src="work.image_path" />
         <div class="card_content">

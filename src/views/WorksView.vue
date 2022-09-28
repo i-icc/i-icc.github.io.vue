@@ -1,7 +1,10 @@
 <template>
   <main class="container">
-    <div class="text-lg-center mb-4 mt-2" style="font-size: 4rem; font-family: 'Kosugi Maru', sans-serif;">
-    制作物 {{tag}}
+    <div
+      class="text-lg-center mb-4 mt-2"
+      style="font-size: 4rem; font-family: 'Kosugi Maru', sans-serif"
+    >
+      制作物 {{ tag }}
     </div>
     <div class="works">
       <WorksComponent :works="works" />
@@ -18,7 +21,7 @@ export default {
   data() {
     return {
       works: [],
-      tag: ""
+      tag: "",
     };
   },
   mounted() {
@@ -29,7 +32,6 @@ export default {
           return response.json();
         })
         .then((json) => {
-          console.log(json);
           this.works.push(json);
         });
     }

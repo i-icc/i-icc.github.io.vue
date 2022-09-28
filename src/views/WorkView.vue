@@ -1,7 +1,5 @@
 <template>
-  <main class="container">
-    id: {{ id }}
-  </main>
+  <main class="container">id: {{ id }}</main>
 </template>
 
 <script>
@@ -10,26 +8,19 @@
 export default {
   data() {
     return {
-      works: [],
-      tag: ""
+      work: {},
+      id: "",
     };
   },
-  created() {
-    this.tag = this.$route.query.tag;
-
-    for (var i = 0; i < 4; i++) {
-      fetch(`works/${i}.json`)
-        .then((response) => {
-          return response.json();
-        })
-        .then((json) => {
-          console.log(json);
-          this.works.push(json);
-        });
-    }
-  },
-  components: {
-    
+  mounted() {
+    this.id = this.$route.params.id;
+    fetch(`works/${this.id}.json`)
+      .then((response) => {
+        return response.json();
+      })
+      .then((json) => {
+        this.work = json;
+      });
   },
 };
 </script>

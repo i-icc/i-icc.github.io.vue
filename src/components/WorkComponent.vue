@@ -6,5 +6,5 @@ export default {
 </script>
 
 <template>
-  {{work}}
+  {{ work }}
 </template>
