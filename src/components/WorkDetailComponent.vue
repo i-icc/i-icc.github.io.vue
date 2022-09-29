@@ -5,18 +5,19 @@ export default {
 </script>
 
 <template>
-  <div class="border-bottom mt-5 mb-5">
+  <div class="border-bottom mt-2 mb-5">
     <h1 class="display-1">{{ work.title }}</h1>
     <div class="display-8 mb-2">
       {{ work.short_description }}
     </div>
     <div class="tags mb-2">
+    <router-link :to="'/works?tag=' + t" v-for="t in work.tag"
+        :key="t">
       <span
         class="badge rounded-pill bg-light text-dark tag"
-        v-for="t in work.tag"
-        :key="t"
         >{{ t }}</span
       >
+      </router-link>
     </div>
   </div>
 

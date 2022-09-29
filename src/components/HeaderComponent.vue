@@ -38,7 +38,7 @@
               </li>
               <li>
                 <router-link class="dropdown-item" to="/works?tag=service"
-                  >Web Service</router-link
+                  >web service</router-link
                 >
               </li>
               <li>
@@ -56,6 +56,11 @@
           <li class="nav-item">
             <router-link class="nav-link" aria-current="page" to="/about"
               >About</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" aria-current="page" to="/info"
+              >Info</router-link
             >
           </li>
         </ul>
