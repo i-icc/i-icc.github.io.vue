@@ -6,7 +6,7 @@
     "image_path": "/img/hiroyukiroid.png",
     "description": ["テストだにゃあ"],
     "media":"https://www.youtube.com/embed/lUFbTNUKJ8U",
-    "link": "url",
+    "link": "",
     "tech": ["Python", "melltron"],
     "date": "2000-06-23"
 }

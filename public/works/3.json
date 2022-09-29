@@ -5,8 +5,9 @@
     "tag": ["software"],
     "image_path": "img/sushida.jpg",
     "description": ["テストだにゃあ"],
-    "media":"youtube のやつ",
-    "link": "url",
+    "media":"https://www.youtube.com/embed/hG3O5N3M93o",
+    "link": "",
+    "git": "",
     "tech": ["Python", "ocr"],
     "date": "2000-06-23"
 }
