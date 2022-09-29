@@ -1,13 +1,39 @@
 {
-    "id":0,
+    "id": 0,
     "title": "test_title",
     "short_description": "this is a test work",
-    "tag": ["service", "software"],
+    "tag": [
+        "service",
+        "software"
+    ],
     "image_path": "/img/test.jpg",
-    "description": ["これはテストテキスト。","テストなんだよなあ","","画像は貼れるのか？？","<img src='/img/test.jpg' />"],
-    "media":"https://www.youtube.com/embed/Yen3MNf0dF8",
+    "description": [
+        "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。",
+        "テストなんだよなあ",
+        "",
+        "画像は貼れるのか？？",
+        "<img src='/img/test.jpg' />",
+        "これはテストテキスト。",
+        "テストなんだよなあ",
+        "",
+        "画像は貼れるのか？？",
+        "<img src='/img/test.jpg' />",
+        "これはテストテキスト。",
+        "テストなんだよなあ",
+        "",
+        "画像は貼れるのか？？",
+        "<img src='/img/test.jpg' />",
+        "これはテストテキスト。",
+        "テストなんだよなあ",
+        ""
+    ],
+    "media": "https://www.youtube.com/embed/Yen3MNf0dF8",
     "link": "https://shittakater.herokuapp.com/",
-    "git": "",
-    "tech": ["Python", "Flask", "Node.js"],
+    "git": "https://github.com/i-icc/sushida-automation?x=45&y=34",
+    "tech": [
+        "Python",
+        "Flask",
+        "Node.js"
+    ],
     "date": "2000-06-23"
 }

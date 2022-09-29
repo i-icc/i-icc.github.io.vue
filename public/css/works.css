@@ -1,39 +1,39 @@
-.works{
-    display:grid;
-    gap:25px;
+.works {
+    display: grid;
+    gap: 25px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 0 25px;
 }
 
-.work{
+.work {
     transition: .5s;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 5px;
-    border:5px solid #fff;
+    border: 5px solid #fff;
     box-shadow: 0 0 1px 1px #ccc;
     animation-name: fade;
     animation-duration: 1s;
 }
 
-.work:hover{
-    transform: scale3d(1.05,1.05,1);
+.work:hover {
+    transform: scale3d(1.05, 1.05, 1);
 }
 
 
-.work:hover .desc{
-    bottom:0px;
+.work:hover .desc {
+    bottom: 0px;
 }
 
-.work img{
+.work img {
     width: 100%;
     vertical-align: top;
     object-fit: cover;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
-.work-inner{
+.work-inner {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -63,17 +63,18 @@
 
 @media screen and (max-width: 550px) {
 
-    input#search-check:checked~.search-box{
+    input#search-check:checked~.search-box {
         width: 85%;
     }
 
 }
 
-@keyframes fade{
-    0%{
-      opacity: 0;
+@keyframes fade {
+    0% {
+        opacity: 0;
     }
-    100%{
-      opacity: 1;
+
+    100% {
+        opacity: 1;
     }
-  }
+}
