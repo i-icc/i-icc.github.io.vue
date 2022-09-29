@@ -4,8 +4,8 @@
     "short_description": "mellotron というモデルを使用した某配信者の合成音声",
     "tag": ["software"],
     "image_path": "/img/hiroyukiroid.png",
-    "description": "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\nこれはテストテキスト。これはテストテキスト。\n",
-    "media":"youtube のやつ",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/lUFbTNUKJ8U",
     "link": "url",
     "tech": ["Python", "melltron"],
     "date": "2000-06-23"

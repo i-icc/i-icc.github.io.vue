@@ -1,0 +1,12 @@
+{
+    "id":4,
+    "title": "スタンド召喚",
+    "short_description": "これであなたもスタンド使い。\nスタンド使いはスタンド使いと惹かれ合う",
+    "tag": ["software"],
+    "image_path": "/img/jojo.png",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/SuFs3hz-SXA",
+    "link": "",
+    "tech": ["Python", "OpenPose", "sciket-learn"],
+    "date": "2021-03-19"
+}

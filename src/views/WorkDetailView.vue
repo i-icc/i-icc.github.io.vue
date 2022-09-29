@@ -1,26 +1,33 @@
 <template>
-  <main class="container">id: {{ id }}</main>
+  <main class="container">
+    <WorkDetailComponent :work="work" />
+  </main>
 </template>
 
 <script>
-// import WorkComponent from "@/components/WorkComponent.vue";
+import WorkDetailComponent from "@/components/WorkDetailComponent.vue";
+
+import "../../public/css/work_deteil.css";
 
 export default {
   data() {
     return {
-      work: {},
+      work: [],
       id: "",
     };
   },
   mounted() {
     this.id = this.$route.params.id;
-    fetch(`works/${this.id}.json`)
+    fetch(`/works/${this.id}.json`)
       .then((response) => {
         return response.json();
       })
       .then((json) => {
         this.work = json;
       });
+  },
+  components: {
+    WorkDetailComponent,
   },
 };
 </script>
