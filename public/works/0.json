@@ -4,28 +4,14 @@
     "short_description": "this is a test work",
     "tag": [
         "service",
-        "software"
+        "software",
+        "movie",
+        "hardware",
+        "recommended"
     ],
-    "image_path": "/img/test.jpg",
+    "image_path": "/img/test.png",
     "description": [
-        "これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。これはテストテキスト。",
-        "テストなんだよなあ",
-        "",
-        "画像は貼れるのか？？",
-        "<img src='/img/test.jpg' />",
-        "これはテストテキスト。",
-        "テストなんだよなあ",
-        "",
-        "画像は貼れるのか？？",
-        "<img src='/img/test.jpg' />",
-        "これはテストテキスト。",
-        "テストなんだよなあ",
-        "",
-        "画像は貼れるのか？？",
-        "<img src='/img/test.jpg' />",
-        "これはテストテキスト。",
-        "テストなんだよなあ",
-        ""
+        "テストだにゃぁ。"
     ],
     "media": "https://www.youtube.com/embed/Yen3MNf0dF8",
     "link": "https://shittakater.herokuapp.com/",

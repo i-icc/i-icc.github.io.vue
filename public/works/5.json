@@ -2,7 +2,7 @@
     "id":5,
     "title": "オセロAI",
     "short_description": "製作者よりは強いです",
-    "tag": ["service", "software"],
+    "tag": ["service"],
     "image_path": "/img/reversi.png",
     "description": ["これはテストテキスト。","テストなんだよなあ","","画像は貼れるのか？？","<img src='/img/test.jpg' />"],
     "media":"",

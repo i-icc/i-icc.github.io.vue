@@ -3,11 +3,11 @@
     "title": "寿司食いまくりマシーン",
     "short_description": "寿司打(タイピングゲーム)の自動化ツール",
     "tag": ["software"],
-    "image_path": "img/sushida.jpg",
+    "image_path": "img/sushida.png",
     "description": ["テストだにゃあ"],
     "media":"https://www.youtube.com/embed/hG3O5N3M93o",
     "link": "",
     "git": "https://github.com/i-icc/sushida-automation",
     "tech": ["Python", "ocr"],
-    "date": "2000-06-23"
+    "date": "???-??-??"
 }
