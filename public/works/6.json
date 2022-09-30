@@ -1,0 +1,21 @@
+{
+    "id": 6,
+    "title": "STOP 飲酒 Amazon",
+    "short_description": "飲酒時のアマゾンを防ぐことで無駄遣いを減らします。",
+    "tag": [
+        "software",
+        "hardware"
+    ],
+    "image_path": "/img/stopamazon.png",
+    "description": [
+        "テストだにゃぁ。"
+    ],
+    "media": "https://www.youtube.com/embed/YC3P-tTKf4Q",
+    "link": "",
+    "git": "https://github.com/i-icc/sushida-automation?x=45&y=34",
+    "tech": [
+        "arduino",
+        "javascript"
+    ],
+    "date": "????-??-??"
+}

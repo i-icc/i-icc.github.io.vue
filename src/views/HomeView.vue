@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <img alt="Vue logo" src="../assets/logo.png" />
   </div>
+  <router-link class="dropdown-item" to="/works">All</router-link>
 </template>
 
 <script>

@@ -1,0 +1,20 @@
+{
+    "id": 12,
+    "title": "ツイッター電光掲示板",
+    "short_description": "作業しながらのツイッターを可能に",
+    "tag": [
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/twikei.png",
+    "description": [
+        "テストだにゃぁ。"
+    ],
+    "media": "",
+    "link": "",
+    "git": "",
+    "tech": [
+        "Python"
+    ],
+    "date": "2020-09-06"
+}

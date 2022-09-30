@@ -1,0 +1,13 @@
+{
+    "id":2,
+    "title": "ひろゆきロイド",
+    "short_description": "mellotron というモデルを使用した某配信者の合成音声",
+    "tag": ["software", "recommended"],
+    "image_path": "/img/hiroyukiroid.png",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/lUFbTNUKJ8U",
+    "link": "",
+    "git": "",
+    "tech": ["Python", "melltron"],
+    "date": "???-??-??"
+}

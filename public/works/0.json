@@ -1,0 +1,25 @@
+{
+    "id": 0,
+    "title": "test_title",
+    "short_description": "this is a test work",
+    "tag": [
+        "service",
+        "software",
+        "movie",
+        "hardware",
+        "recommended"
+    ],
+    "image_path": "/img/test.png",
+    "description": [
+        "テストだにゃぁ。"
+    ],
+    "media": "https://www.youtube.com/embed/Yen3MNf0dF8",
+    "link": "https://shittakater.herokuapp.com/",
+    "git": "https://github.com/i-icc/sushida-automation?x=45&y=34",
+    "tech": [
+        "Python",
+        "Flask",
+        "Node.js"
+    ],
+    "date": "2000-06-23"
+}

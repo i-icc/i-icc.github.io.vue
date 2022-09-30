@@ -1,0 +1,13 @@
+{
+    "id":1,
+    "title": "Shittakater",
+    "short_description": "トレンド追うの疲れませんか？知ったかぶりで乗り切ろう!現在のトレンドから気になる言葉まで知ったかぶった文章を生成します。",
+    "tag": ["service", "recommended"],
+    "image_path": "img/shittakater.png",
+    "description": ["テストだにゃあ"],
+    "media":"https://www.youtube.com/embed/gJKuj28vXac",
+    "link": "https://shittakater.herokuapp.com/",
+    "git": "",
+    "tech": ["Python", "Flask", "形態素解析", "マルコフ連載"],
+    "date": "???-??-??"
+}

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Ronde';
+	src: url(../fonts/Ronde-B_square.otf);
+}
+
+.navbar-brand {
+	font-family: Ronde;
+	font-size: 2rem;
+}
