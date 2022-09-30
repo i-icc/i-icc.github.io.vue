@@ -47,7 +47,7 @@ export default {
   },
   mounted() {
     this.tag = this.$route.query.tag;
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0; i < 13; i++) {
       fetch(`/works/${i}.json`)
         .then((response) => {
           return response.json();
