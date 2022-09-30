@@ -1,13 +1,23 @@
 {
-    "id":3,
+    "id": 3,
     "title": "寿司食いまくりマシーン",
     "short_description": "寿司打(タイピングゲーム)の自動化ツール",
-    "tag": ["software"],
+    "tag": [
+        "software"
+    ],
     "image_path": "img/sushida.png",
-    "description": ["テストだにゃあ"],
-    "media":"https://www.youtube.com/embed/hG3O5N3M93o",
+    "description": [
+        "友達と寿司打で競ってた時期にスコアがいい人がリアル寿司を安く食べれるといったことを友達としていました。",
+        "確実に勝つべく自動化ツールを作成しました(無効なスコアなので却下されました)",
+        "ちなみにタイピングの実力は若干お得になるくらいです。",
+        "画面をキャプチャし 2 値化し ocr 処理をかましたあと pyautogui を使いタイピングします。"
+    ],
+    "media": "https://www.youtube.com/embed/hG3O5N3M93o",
     "link": "",
     "git": "https://github.com/i-icc/sushida-automation",
-    "tech": ["Python", "ocr"],
-    "date": "???-??-??"
+    "tech": [
+        "Python",
+        "ocr"
+    ],
+    "date": "2021/06/08"
 }

@@ -1,13 +1,29 @@
 {
-    "id":2,
+    "id": 2,
     "title": "ひろゆきロイド",
     "short_description": "mellotron というモデルを使用した某配信者の合成音声",
-    "tag": ["software", "recommended"],
+    "tag": [
+        "software",
+        "recommended"
+    ],
     "image_path": "/img/hiroyukiroid.png",
-    "description": ["テストだにゃあ"],
-    "media":"https://www.youtube.com/embed/lUFbTNUKJ8U",
+    "description": [
+        "nvidia さんが出している mellotron というモデル(https://github.com/NVIDIA/mellotron)を使用して某有名配信者の合成音声を作成しました。",
+        "python の音声周りのライブラリを使い学習データを作成し、 google colab で学習しました。",
+        "colab は Google が無料で提供している開発環境です。",
+        "性能のいいGPUを貸してくれるのでありがたいですね。",
+        "---",
+        "追記",
+        "CoeFont さんが作った おしゃべりひろゆきメーカー むっちゃバズりましたね、、、",
+        "自分も試しましたが私が作成したものよりも簡単に早く生成できて完敗でした。",
+        "開発を再開するかはわかりませんが、あちらはまだ歌わせる機能はないっぽいので次作るバージョンは歌に特化させようかなと思います。"
+    ],
+    "media": "https://www.youtube.com/embed/lUFbTNUKJ8U",
     "link": "",
     "git": "",
-    "tech": ["Python", "melltron"],
-    "date": "???-??-??"
+    "tech": [
+        "Python",
+        "melltron"
+    ],
+    "date": "2021-07-21"
 }

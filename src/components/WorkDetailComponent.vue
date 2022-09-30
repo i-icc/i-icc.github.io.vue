@@ -19,6 +19,7 @@ export default {
       >
       </router-link>
     </div>
+    <div class="mt-1">{{work.date}}</div>
   </div>
 
   <div class="row">

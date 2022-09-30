@@ -1,13 +1,36 @@
 {
-    "id":1,
+    "id": 1,
     "title": "Shittakater",
     "short_description": "トレンド追うの疲れませんか？知ったかぶりで乗り切ろう!現在のトレンドから気になる言葉まで知ったかぶった文章を生成します。",
-    "tag": ["service", "recommended"],
+    "tag": [
+        "service",
+        "recommended"
+    ],
     "image_path": "img/shittakater.png",
-    "description": ["テストだにゃあ"],
-    "media":"https://www.youtube.com/embed/gJKuj28vXac",
+    "description": [
+        "みなさん、トレンド追い続けてますか？忙しい時は乗り遅れてしまうことがありますよね。",
+        "この Shittakater さえあればそのようなことはもう起きません。",
+        "トレンドのフレーズを入力するだけでそれっぽいコメントを自動生成します！あとはそれを呟きましょう！",
+        " ",
+        "仕組みとしては、twitter API を使用して特定のフレーズを含むツイートを取得、形態素解析したあとマクロフ連鎖を組み文章を自動生成します。",
+        "一定期間内にある程度の数のツイートが集まらないと生成できないようになっています。TOP画面に日本での1位から3位までのトレンドを表示しているので何を入力するか迷ったらそれらを試してみてください。",
+        "Flask を利用しウェブで利用可能にし heroku でデプロイしました。(heroku の無料枠が2022/11/28までなのでそれ以降動くかは未定)",
+        "製作時はスマホでの利用を考えてなかったのでPCでの利用を推奨します。",
+        " ",
+        "---",
+        "追記",
+        "ツイートボタンを追加したので生成した文章をより簡単に呟けるようになりました。",
+        "公開しているリポジトリはあまり更新していないので現在web上にあるものと異なる場合があります。"
+    ],
+    "media": "https://www.youtube.com/embed/gJKuj28vXac",
     "link": "https://shittakater.herokuapp.com/",
-    "git": "",
-    "tech": ["Python", "Flask", "形態素解析", "マルコフ連載"],
-    "date": "???-??-??"
+    "git": "https://github.com/i-icc/shittakater",
+    "tech": [
+        "Python",
+        "Flask",
+        "Janome",
+        "形態素解析",
+        "マルコフ連載"
+    ],
+    "date": "2021-06-06"
 }

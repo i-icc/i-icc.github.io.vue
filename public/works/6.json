@@ -8,14 +8,14 @@
     ],
     "image_path": "/img/stopamazon.png",
     "description": [
-        "テストだにゃぁ。"
+        "原稿発掘したら更新します。"
     ],
     "media": "https://www.youtube.com/embed/YC3P-tTKf4Q",
     "link": "",
-    "git": "https://github.com/i-icc/sushida-automation?x=45&y=34",
+    "git": "https://github.com/i-icc/stop_amazon_alcohol",
     "tech": [
         "arduino",
         "javascript"
     ],
-    "date": "????-??-??"
+    "date": "2022-06-1"
 }

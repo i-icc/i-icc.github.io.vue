@@ -1,13 +1,31 @@
 {
-    "id":4,
+    "id": 4,
     "title": "スタンド召喚",
     "short_description": "これであなたもスタンド使い。\nスタンド使いはスタンド使いと惹かれ合う",
-    "tag": ["software", "recommended"],
+    "tag": [
+        "software",
+        "recommended"
+    ],
     "image_path": "/img/jojo.png",
-    "description": ["テストだにゃあ"],
-    "media":"https://www.youtube.com/embed/SuFs3hz-SXA",
+    "description": [
+        "私達はなぜか漫画やゲームのように能力を使ったり変身する事ができません。",
+        "不思議でたまりませんね？",
+        "そこで、特定のポーズ(漫画「ジョジョの奇妙な冒険」に出てくるジョジョ立ち)をするとポーズに対応した描画(スタンドの生成)をする事で漫画のような能力を得ることを試みました。",
+        "OpenPose を用いて骨格検出を行い、教師データとして扱いやすいように加工、ラベリングした後 scikit-learn ライブラリを用いて学習します。",
+        "その後、動画、もしくは webカメラから入力を受け取りどのようなポーズをしているか判定、対応したスタンド(画像)を OpenCV を使い合成するといった処理です。",
+        "---",
+        "追記",
+        "骨格認識をノートパソコンのCPUで行うとFPSが1を下回るため実質動画専用のプログラムでした。",
+        "そこで、骨格認識をAIカメラ(ORK)に任せたバージョンも作成しました。",
+        "gitのリンクはそちらを載せておきます。"
+    ],
+    "media": "https://www.youtube.com/embed/SuFs3hz-SXA",
     "link": "",
-    "git": "",
-    "tech": ["Python", "OpenPose", "sciket-learn"],
+    "git": "https://github.com/i-icc/depthai_jojo",
+    "tech": [
+        "Python",
+        "OpenPose",
+        "sciket-learn"
+    ],
     "date": "2021-03-19"
 }
