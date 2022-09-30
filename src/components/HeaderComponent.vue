@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">サイト名募集</a>
+      <a class="navbar-brand" href="/">空想倉庫(仮)</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -44,6 +44,11 @@
               <li>
                 <router-link class="dropdown-item" to="/works?tag=software"
                   >software</router-link
+                >
+              </li>
+              <li>
+                <router-link class="dropdown-item" to="/works?tag=hardware"
+                  >hardware</router-link
                 >
               </li>
               <li>
