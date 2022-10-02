@@ -2,9 +2,10 @@
   <main class="container">
     <div class="m-5 home">
       <div class="display-1">空想倉庫(仮)</div>
-      <div class="display-4 mb-2">
-        思いついたものを徒然なるまま作っています。<br>
-        半年に一度くらいのペースで動画も出します。
+      <div class="display-6 mb-2">
+        思いついたものを徒然なるまま作っています。<br />
+        半年に一度くらいのペースで動画も出します。<br />
+        連絡はTwitterのDMまで。
       </div>
     </div>
 
@@ -14,16 +15,14 @@
       <div class="display-4">i-icc/某猫</div>
     </div>
 
-    <div class="row mb-5">
-      <div class="col-md-3 display-6 link" v-for="link in links" :key="link.l">
+    <div class="links mb-5">
+      <div v-for="link in links" :key="link.l">
         <a class="nav-link" :href="link.l" style="color: black" target="_blank"
-          ><img :src="link.i"
+          ><img :src="link.i" class="link"
         /></a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6 display-5">技術スタックとか近いうちにここに書かれます。</div>
-    </div>
+    <!-- 技術スタックとかここにいつか書くかも -->
   </main>
 </template>
 
@@ -47,7 +46,7 @@ export default {
         },
         { l: "https://github.com/i-icc", t: "git", i: "/img/git_logo.png" },
         {
-          l: "https://twitter.com/shark_engineer",
+          l: "https://twitter.com/bo_neko00000",
           t: "twitter",
           i: "/img/twitter_logo.png",
         },
