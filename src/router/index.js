@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import InfoView from '../views/InfoView.vue'
 import BlogView from '../views/BlogView.vue'
+import PlofileView from '../views/PlofileView.vue';
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
     path: '/info',
     name: 'info',
     component: InfoView
+  },
+  {
+    path: '/plofile',
+    name: 'plofile',
+    component: PlofileView
   },
   {
     path: '/blog',

@@ -1,7 +1,7 @@
 <template>
   <main class="container">
     <div class="m-5 home">
-      <div class="display-1">空想倉庫(仮)</div>
+      <div class="display-1">某猫のワクワク創作倉庫</div>
       <div class="display-8 mb-2">思いついたものを暇な時に作っています</div>
     </div>
 
