@@ -27,10 +27,10 @@ export default {
   },
   methods: {
     select_work: function () {
-      console.log("test", this.tag, this.all_works, this.works);
+      // console.log("test", this.tag, this.all_works, this.works);
       this.works = [];
       for (const work of this.all_works) {
-        console.log(work);
+        // console.log(work);
         if (work.tag.includes(this.tag) || this.tag == null) this.works.push(work);
       }
     },
@@ -47,16 +47,23 @@ export default {
   },
   mounted() {
     this.tag = this.$route.query.tag;
-    for (var i = 1; i < 13; i++) {
-      fetch(`/works/${i}.json`)
-        .then((response) => {
-          return response.json();
-        })
-        .then((json) => {
-          this.all_works.push(json);
-          if (json.tag.includes(this.tag) || this.tag == null) this.works.push(json);
-        });
-    }
+    fetch(`/works/show_list.json`)
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        for (var i = data.from; i <= data.to; i++) {
+          fetch(`/works/${i}.json`)
+            .then((response) => {
+              return response.json();
+            })
+            .then((json) => {
+              this.all_works.push(json);
+              if (json.tag.includes(this.tag) || this.tag == null) this.works.push(json);
+            });
+        }
+      });
+
     this.select_work();
   },
   components: {
