@@ -1,0 +1,41 @@
+{
+    "id": 13,
+    "title": "腕だけムキムキweb",
+    "short_description": "人間を筋肉の悪魔にします",
+    "tag": [
+        "service",
+        "recommended"
+    ],
+    "image_path": "/img/test.png",
+    "description": [
+        "努力　未来　A BEAUTIFUL STAR",
+        "努力　未来　A BEAUTIFUL STAR",
+        "",
+        "皆さんは最近人気のアニメ、チェンソーマンのオープニングをご存知でしょうか？",
+        "そう、米津玄師さんが歌っている kick back ですね。",
+        "制作には King Gnu の常田さんも関わっておりイントロから最高でした。",
+        "",
+        "そんなかっこいい曲を出した米津玄師さんですが、曲だけではなくMVも毎回面白く素晴らしいものとなっています。",
+        "",
+        "今回のMVのを表す言葉は筋肉ですかね。",
+        "",
+        "また、最後に彼と同じ服を着た人がたくさん現れるのですが何かが足りません。",
+        "何かが足りない、、、",
+        "何が足りない、、、？",
+        "何が、、、？",
+        "",
+        "そう筋肉です。",
+        "",
+        "正確には腕の筋肉が足りません。",
+        "",
+        "そこで人類に筋肉を授けるアプリを作成しました。"
+    ],
+    "media": "",
+    "link": "https://i-icc.github.io/arm_only_mukimuki_web/",
+    "git": "https://github.com/i-icc/arm_only_mukimuki_web",
+    "tech": [
+        "js",
+        "MediaPipe"
+    ],
+    "date": "2022-11-30"
+}
