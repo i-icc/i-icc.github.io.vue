@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">空想倉庫(仮)</a>
+      <a class="navbar-brand" href="/">某猫のワクワク創作倉庫</a>
       <button
         class="navbar-toggler"
         type="button"
