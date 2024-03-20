@@ -1,0 +1,20 @@
+{
+    "id": 17,
+    "title": "my-difff",
+    "short_description": "difff のフロントだけで動くやつ",
+    "tag": [
+        "service",
+        "software"
+    ],
+    "image_path": "/img/difff.png",
+    "description": [
+        "difff とほぼ同じですがフロントだけで処理しているのでネットワーク通信がありません。"
+    ],
+    "media": "",
+    "link": "https://i-icc.github.io/my-difff",
+    "git": "https://github.com/i-icc/my-difff",
+    "tech": [
+        "react", "ts"
+    ],
+    "date": "2023-07-31"
+}

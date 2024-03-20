@@ -6,13 +6,13 @@
         "software",
         "recommended"
     ],
-    "image_path": "/img/test.png",
+    "image_path": "/img/youtube_up.png",
     "description": [
-        "説明をする、タイトルで誤解されないようにとにかく説明する"
+        "サービスへのボタンから制作記事へ飛べます"
     ],
-    "media": "https://www.youtube.com/embed/Yen3MNf0dF8",
-    "link": "https://shittakater.herokuapp.com/",
-    "git": "https://github.com/i-icc/sushida-automation?x=45&y=34",
+    "media": "",
+    "link": "https://i-icc.hatenablog.com/entry/2022/12/02/115227",
+    "git": "https://github.com/i-icc/Illegal_Uploaded_Video_Content",
     "tech": [
         "拡張機能"
     ],
