@@ -7,6 +7,9 @@
           >前サイト)</a
         >
       </li>
+      <li class="list-group-item">
+        2024-03-20 ブログへのリンク追加。
+      </li>
     </ul>
   </main>
 </template>

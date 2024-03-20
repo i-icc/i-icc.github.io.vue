@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import InfoView from '../views/InfoView.vue'
-import BlogView from '../views/BlogView.vue'
+// import BlogView from '../views/BlogView.vue'
 
 const routes = [
   {
@@ -32,7 +32,9 @@ const routes = [
   {
     path: '/blog',
     name: 'blog',
-    component: BlogView
+    beforeEnter() {
+      window.location = "https://i-icc.hatenablog.com/"
+    }
   }
 ]
 

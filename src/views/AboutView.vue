@@ -1,10 +1,10 @@
 <template>
   <main class="container">
     <div class="m-5 home">
-      <div class="display-1">空想倉庫(仮)</div>
+      <div class="display-1">某猫創作倉庫</div>
       <div class="display-6 mb-2">
         思いついたものを徒然なるまま作っています。<br />
-        半年に一度くらいのペースで動画も出します。<br />
+        <s>半年に一度くらいのペースで動画も出しています。</s><br />
         連絡はTwitterのDMまで。
       </div>
     </div>

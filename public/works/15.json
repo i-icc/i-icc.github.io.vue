@@ -1,0 +1,30 @@
+{
+    "id": 15,
+    "title": "ジャンプクイーン",
+    "short_description": "ジャ⚪︎プキング のパロディーゲームです。web で遊べます",
+    "tag": [
+        "service",
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/jumpqueen.png",
+    "description": [
+        "年末の暇な時間で作ったWEB上で動くゲーム",
+        "",
+        "耐久ゲームで有名な某ジャン○キングのパロディです。",
+        "操作方法はキーボードの 'A', 'D' で左右移動",
+        "'J' でジャンプ",
+        "ジャンプは 'J' を押し続けた時間によってジャンプの高さが変わります。",
+        "",
+        "自分はクリアに1時間かかりました。",
+        "",
+        "(キャラクターは⚪︎トミトをモチーフにしています。)"
+    ],
+    "media": "https://www.youtube.com/embed/PoyOR_iFnXQ",
+    "link": "https://i-icc.github.io/jump_queen/",
+    "git": "https://github.com/i-icc/jump_queen",
+    "tech": [
+        "js"
+    ],
+    "date": "2022-12-27"
+}

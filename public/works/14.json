@@ -1,0 +1,20 @@
+{
+    "id": 14,
+    "title": "違法アップロード動画風変換器",
+    "short_description": "全ての動画を違法アップロード動画(風)に変換する拡張機能",
+    "tag": [
+        "software",
+        "recommended"
+    ],
+    "image_path": "/img/youtube_up.png",
+    "description": [
+        "サービスへのボタンから制作記事へ飛べます"
+    ],
+    "media": "",
+    "link": "https://i-icc.hatenablog.com/entry/2022/12/02/115227",
+    "git": "https://github.com/i-icc/Illegal_Uploaded_Video_Content",
+    "tech": [
+        "拡張機能"
+    ],
+    "date": "2022-12-02"
+}
